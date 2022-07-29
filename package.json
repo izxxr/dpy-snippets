@@ -1,10 +1,10 @@
 {
-  "name": "discord-py-snippets",
+  "name": "dpy-snippets",
   "displayName": "discord.py Snippets",
   "description": "Up-to-date, useful code snippets for discord.py",
   "publisher": "nerdguyahmad",
-  "repository": "https://github.com/nerdguyahmad/discord-py-snippets",
-  "homepage": "https://github.com/nerdguyahmad/discord-py-snippets",
+  "repository": "https://github.com/nerdguyahmad/dpy-snippets",
+  "homepage": "https://github.com/nerdguyahmad/dpy-snippets",
   "author": {
     "name": "nerdguyahmad",
     "email": "nerdguyahmad.contact@gmail.com",

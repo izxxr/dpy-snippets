@@ -1,4 +1,4 @@
-# discord-py-snippets
+# dpy-snippets
 VSCode extension providing useful and up-to-date snippets for discord.py 2.0.
 
 **Features:**
@@ -6,7 +6,7 @@ VSCode extension providing useful and up-to-date snippets for discord.py 2.0.
 - Carefully designed to suit common practices and uses
 - Fully up-to-date with current version of discord.py
 
-![Basic Usage](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/assets/basic_snippet.gif)
+![Basic Usage](https://github.com/nerdguyahmad/dpy-snippets/blob/main/assets/basic_snippet.gif)
 
 ## Overview
 This simple extension provides useful and commonly used snippets for discord.py.
@@ -60,8 +60,8 @@ You can press <kbd>Tab</kbd> to autocomplete the snippet. Each snippet is custom
 and you can press <kbd>Tab</kbd> to jump between common points of a snippet to modify
 it according to your need.
 
-![Developer Experience](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/assets/developer_experience.gif)
+![Developer Experience](https://github.com/nerdguyahmad/dpy-snippets/blob/main/assets/developer_experience.gif)
 
 ## Contributing
 This extension is powered by contributions! If you want to add a snippet, improve a current
-snippet or suggest a snippet, feel free to read our [Contribution Guidelines](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/CONTRIBUTING.MD)
+snippet or suggest a snippet, feel free to read our [Contribution Guidelines](https://github.com/nerdguyahmad/dpy-snippets/blob/main/CONTRIBUTING.MD)

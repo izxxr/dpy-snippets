@@ -1,0 +1,20 @@
+{
+  "name": "discord-py-snippets",
+  "displayName": "discord.py Snippets",
+  "description": "Up-to-date, useful code snippets for discord.py",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

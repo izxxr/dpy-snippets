@@ -1,0 +1,179 @@
+{
+
+    /* --------------- Starter Boilerplates ------------------- */
+
+    "Basic Client-based Boilerplate": {
+        "prefix": ["dpy.bc", "dpy.!c"],
+        "body": [
+            "import discord\n",
+            "client = discord.Client(intents=discord.Intents.default())\n",
+            "@client.event",
+            "async def on_ready():",
+            "\tprint('Ready')\n",
+            "client.run('$2')",
+        ],
+        "description": "Generates a basic discord.Client based boilerplate code",
+    },
+
+    "Basic Bot-based Boilerplate": {
+        "prefix": ["dpy.bb", "dpy.!"],
+        "body": [
+            "import discord",
+            "from discord.ext import commands\n",
+            "bot = commands.Bot(command_prefix='$1', intents=discord.Intents.default())\n",
+            "@bot.event",
+            "async def on_ready():",
+            "\tprint('Ready')\n",
+            "bot.run('$3')\n",
+        ],
+        "description": "Generates a basic commands.Bot based boilerplate code",
+    },
+
+    "Advanced Client-based Boilerplate": {
+        "prefix": ["dpy.ac", "dpy.!ca"],
+        "body": [
+            "import discord\n",
+            "class ${1:Client}(discord.Client):",
+            "\tasync def on_ready(self):",
+            "\t\tprint('Ready')\n",
+            "client = ${1:Client}(intents=discord.Intents.default())",
+            "client.run('$2')\n",
+        ],
+        "description": "Generates a subclassed discord.Client boilerplate"
+    },
+
+    "Advanced Bot-based Boilerplate": {
+        "prefix": ["dpy.ab", "dpy.!a"],
+        "body": [
+            "import discord",
+            "from discord.ext import commands\n",
+            "class ${1:Bot}(commands.Bot):",
+            "\tasync def on_ready(self):",
+            "\t\tprint('Ready')\n",
+            "bot = ${1:Bot}(command_prefix='$2', intents=discord.Intents.default())",
+            "bot.run('$3')\n",
+        ],
+        "description": "Generates a subclassed commands.Bot boilerplate"
+    },
+
+    /* ----------------------- Basic --------------------- */
+
+    "Event": {
+        "prefix": ["dpy.ev"],
+        "body": [
+            "@${1:client}.event",
+            "async def on_$2($3):",
+            "\t$4"
+        ],
+        "description": "Generates code for registering an event",
+    },
+
+    "Command": {
+        "prefix": ["dpy.cmd"],
+        "body": [
+            "@${1:bot}.command()",
+            "async def $2(ctx$3):",
+            "\t$4",
+        ],
+        "description": "Generates code for a basic command",
+    },
+
+    "Listener": {
+        "prefix": ["dpy.lr"],
+        "body": [
+            "@${1:bot}.listen('${2:}')",
+            "async def on_$2($3):",
+            "\t$4",
+        ],
+        "description": "Generates code for a basic listener"
+    },
+
+    /* --------------------- Extensions ---------------------- */
+
+    "Extension": {
+        "prefix": ["dpy.ext"],
+        "body": [
+            "import discord",
+            "from discord.ext import commands\n",
+            "$1",
+            "",
+            "def setup(bot):",
+            "\t$2",
+            "",
+            "def teardown(bot):",
+            "\t$3",
+        ],
+        "description": "Generates boilerplate for an extension",
+    },
+
+    /* ----------------------- Cogs ----------------------- */
+
+    "Cog": {
+        "prefix": ["dpy.cog"],
+        "body": [
+            "import discord",
+            "from discord.ext import commands\n",
+            "class $1(commands.Cog):",
+            "\t\"\"\"$2\"\"\"",
+            "\tdef __init__(self, bot):",
+            "\t\tself.bot = bot\n",
+            "\t$3\n",
+            "async def setup(bot):",
+            "\tawait bot.add_cog($1(bot))",
+        ],
+        "description": "Generates code for a cog (including extension setup)",
+    },
+
+    "Cog Command": {
+        "prefix": ["dpy.ccmd"],
+        "body": [
+            "@commands.command()",
+            "async def $1(self, ctx$2):",
+            "\t$4",
+        ],
+        "description": "Generates code for a command in a cog",
+    },
+
+    "Cog Listener": {
+        "prefix": ["dpy.clr"],
+        "body": [
+            "@commands.Cog.listener()",
+            "async def on_$1(self$2):",
+            "\t$3",
+        ],
+        "description": "Generates code for a cog listener",
+    },
+
+    /* --------------------- UI ---------------------- */
+
+    "View": {
+        "prefix": ["dpy.view"],
+        "body": [
+            "class ${1:View}(${2:discord.}ui.View):",
+            "\t$3"
+        ],
+        "description": "Generates code for a UI components view",
+    },
+
+    "Button function based": {
+        "prefix": ["dpy.btn"],
+        "body": [
+            "@${1:discord.}ui.button(label='$2', style=discord.ButtonStyle.${3:secondary}$4)",
+            "async def ${5:button}(self, interaction, button):",
+            "\t$6",
+        ],
+        "description": "Generates a function based button using @ui.button decorator."
+    },
+
+    "Button class based": {
+        "prefix": ["dpy.btnc"],
+        "body": [
+            "class ${1:Button}(${2:discord.}ui.Button):",
+            "\tasync def callback(self, interaction):",
+            "\t\t$3"
+        ],
+        "description": "Generates a subclassed ui.Button with a callback method",
+    },
+
+    // TODO: Other UI kit components
+}

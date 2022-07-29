@@ -1,12 +1,12 @@
 # discord-py-snippets
-![Basic Usage](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/assets/basic_snippet.gif)
-
 VSCode extension providing useful and up-to-date snippets for discord.py 2.0.
 
 **Features:**
 - Consistent and easy to remember prefixes
 - Carefully designed to suit common practices and uses
 - Fully up-to-date with current version of discord.py
+
+![Basic Usage](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/assets/basic_snippet.gif)
 
 ## Overview
 This simple extension provides useful and commonly used snippets for discord.py.

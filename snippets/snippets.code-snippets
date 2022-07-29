@@ -3,7 +3,7 @@
     /* --------------- Starter Boilerplates ------------------- */
 
     "Basic Client-based Boilerplate": {
-        "prefix": ["dpy.bc", "dpy.!c"],
+        "prefix": ["dpy.bc"],
         "body": [
             "import discord\n",
             "client = discord.Client(intents=discord.Intents.default())\n",
@@ -30,7 +30,7 @@
     },
 
     "Advanced Client-based Boilerplate": {
-        "prefix": ["dpy.ac", "dpy.!ca"],
+        "prefix": ["dpy.ac"],
         "body": [
             "import discord\n",
             "class ${1:Client}(discord.Client):",

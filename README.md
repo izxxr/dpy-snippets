@@ -1,4 +1,6 @@
 # discord-py-snippets
+![Basic Usage](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/assets/basic_snippet.gif)
+
 VSCode extension providing useful and up-to-date snippets for discord.py 2.0.
 
 **Features:**
@@ -57,6 +59,8 @@ will be shown by VSCode automatically.
 You can press <kbd>Tab</kbd> to autocomplete the snippet. Each snippet is customizable
 and you can press <kbd>Tab</kbd> to jump between common points of a snippet to modify
 it according to your need.
+
+![Developer Experience](https://github.com/nerdguyahmad/discord-py-snippets/blob/main/assets/developer_experience.gif)
 
 ## Contributing
 This extension is powered by contributions! If you want to add a snippet, improve a current

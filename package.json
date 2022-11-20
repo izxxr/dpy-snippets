@@ -2,13 +2,13 @@
   "name": "dpy-snippets",
   "displayName": "discord.py Snippets",
   "description": "Up-to-date, useful code snippets for discord.py",
-  "publisher": "nerdguyahmad",
-  "repository": "https://github.com/nerdguyahmad/dpy-snippets",
-  "homepage": "https://github.com/nerdguyahmad/dpy-snippets",
+  "publisher": "izxxr",
+  "repository": "https://github.com/izxxr/dpy-snippets",
+  "homepage": "https://github.com/izxxr/dpy-snippets",
   "author": {
-    "name": "nerdguyahmad",
+    "name": "izxxr",
     "email": "nerdguyahmad.contact@gmail.com",
-    "url": "https://nerdguyahmad.github.io"
+    "url": "https://izxxr.github.io"
   },
   "icon": "icon.png",
   "version": "1.0.1",

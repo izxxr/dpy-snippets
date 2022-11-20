@@ -2,7 +2,7 @@
 First things first, Thank you for showing interest in contributing to dpy-packages. 👍
 
 ## Snippet suggestions
-Suggestions for a new snippet or improvement to an existing snippet are submitted using [GitHub issues](https://github.com/nerdguyahmad/dpy-snippets/issues). When
+Suggestions for a new snippet or improvement to an existing snippet are submitted using [GitHub issues](https://github.com/izxxr/dpy-snippets/issues). When
 submitting a suggestion make sure to:
 
 - Describe the snippet
@@ -13,7 +13,7 @@ When suggestion an improvement, you should also discuss on why the improvement c
 
 ## Adding a new snippet
 You can also open pull requests for adding new snippets or improving an existing one. In order to add a snippet, you would have to clone this repository
-and edit the [`snippets/snippets.code-snippets`](https://github.com/nerdguyahmad/dpy-snippets/blob/main/snippets/snippets.code-snippets) file.
+and edit the [`snippets/snippets.code-snippets`](https://github.com/izxxr/dpy-snippets/blob/main/snippets/snippets.code-snippets) file.
 
 Add a new entry in this file of this format:
 ```code-snippets
